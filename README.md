@@ -18,7 +18,7 @@ You write your source code in a text file with the `.mcfunction` extension, as y
 
 The syntax is almost identical to existing mcfunction syntax, so all syntax highlighting schemes will still work. Additionally, you can use the keywords `ex` and `fn` as aliases for `execute` and `function`.
 
-Instructions to the assembler are lines that begin with `##`. These are treated as comments by mcfunction syntax (as are all lines that begin with `#`). The instruction to be performed depends on the immediately following character. `##` followed by any other character not listed here is treated as a comment.
+Instructions to the assembler are lines that begin with `##`. These are treated as comments by mcfunction syntax (as are all lines that begin with `#`). The instruction to be performed depends on the immediately following character. `##` followed by any other character not listed here is ignored.
 
 * `##: <namespace>` = set the namespace for all following function declarations to `<namespace>` (mnemonic: `:` separates namespace from function name, as in `minecraft:foo`)
 * `##/ <path>` = set the parent directory for all following function declarations to `<path>` (mnemonic: `/` separates directories, as in `minecraft:foo/bar`)
