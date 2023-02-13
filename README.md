@@ -43,6 +43,8 @@ Place the application in the same directory as the source code file you wish to 
 
 ## Example
 
+### Input
+
 Suppose you have the following directory:
 ```
 ├one.mcfunction
@@ -100,6 +102,8 @@ fn second
 
 ##/ weird
 ```
+
+### Output
 
 Running the application on `one.mcfunction` produces a directory called `one` which looks like this:
 ```
