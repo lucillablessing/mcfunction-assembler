@@ -1,6 +1,6 @@
 # mcfunction-assembler
 
-Builds function directories for Minecraft data packs
+Tool for building function directories for Minecraft data packs, implemented in Nim
 
 
 
@@ -37,7 +37,9 @@ The output is a nested directory of function files with the following properties
 
 ## Usage
 
-Place the application in the same directory as the source code file you wish to assemble. Drag and drop the file onto the application. It will create a directory named after the file, located in the same directory, containing all the function files in their correct subdirectories.
+Compile the Nim code into a native application. Place the application in the same directory as the mcfunction source code file you wish to assemble. Drag and drop the file onto the application. It will create a directory named after the file, located in the same directory, containing all the function files in their correct subdirectories.
+
+The tool currently *doesn't* support error messages, and will simply silently fail if something goes wrong, e.g. invalid syntax or multiple function declarations with the same name.
 
 
 
